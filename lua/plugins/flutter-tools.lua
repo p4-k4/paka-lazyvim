@@ -5,6 +5,17 @@ return {
     "nvim-lua/plenary.nvim",
     "stevearc/dressing.nvim", -- optional for vim.ui.select
   },
+  keys = {
+
+    { "<leader>fd", "<cmd>FlutterDevices<cr>" },
+    { "<leader>fD", "<cmd>FlutterDetach<cr>" },
+    { "<leader>ff", "<cmd>FlutterRun<cr>" },
+    { "<leader>fq", "<cmd>FlutterQuit<cr>" },
+    { "<leader>fr", "<cmd>FlutterReload<cr>" },
+    { "<leader>fR", "<cmd>FlutterRestart<cr>" },
+    { "<leader>fpu", "<cmd>FlutterPubUpgrade<cr>" },
+    { "<leader>fpg", "<cmd>FlutterPubGet<cr>" },
+  },
   config = true,
   opts = {
 
@@ -24,7 +35,7 @@ return {
     },
     debugger = {
       enabled = true,
-      run_via_dap = false,
+      run_via_dap = true,
     },
 
     lsp = {
@@ -54,8 +65,8 @@ return {
         type = "dart",
         request = "launch",
         name = "Test flutter",
-        dartSdkPath = "/opt/flutter/bin/cache/dart-sdk/",
-        flutterSdkPath = "/opt/flutter",
+        dartSdkPath = "/opt/homebrew/bin/",
+        flutterSdkPath = "/opt/homebrew/bin/",
         program = "${file}",
         cwd = "${workspaceFolder}",
       },
