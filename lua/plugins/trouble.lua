@@ -1,4 +1,4 @@
 return {
   "folke/trouble.nvim",
-  opts = { position = "top" },
+  opts = { position = "bottom" },
 }
