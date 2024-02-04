@@ -4,5 +4,11 @@ vim.diagnostic.config({
 
 return {
   "neovim/nvim-lspconfig",
-  opts = {},
+  opts = {
+    window = {
+      completion = {
+        border = "rounded",
+      },
+    },
+  },
 }

@@ -8,7 +8,7 @@ vim.g.neovide_refresh_rate = 75
 
 vim.neovide_background_color = "#1f2335"
 
-vim.g.neovide_transparency = 0.7
+vim.g.neovide_transparency = 0.8
 
 vim.g.neovide_window_blurred = true
 vim.g.neovide_floating_blur_amount_x = 200.0
