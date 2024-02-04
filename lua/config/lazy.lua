@@ -1,4 +1,25 @@
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+
+vim.g.neovide_padding_top = 12
+vim.g.neovide_padding_left = 12
+vim.g.neovide_padding_right = 12
+vim.g.neovide_padding_bottom = 12
+vim.g.neovide_refresh_rate = 75
+
+vim.neovide_background_color = "#1f2335"
+
+vim.g.neovide_transparency = 0.7
+
+vim.g.neovide_window_blurred = true
+vim.g.neovide_floating_blur_amount_x = 200.0
+vim.g.neovide_floating_blur_amount_y = 200.0
+vim.g.neovide_remember_dimensions = true
+vim.g.neovide_remember_window_size = true
+
+vim.g.neovide_cursor_vfx_mode = "railgun"
+vim.g.neovide_cursor_animation_length = 0
+vim.g.neovide_cursor_trail_length = 0.00
+
 if not vim.loop.fs_stat(lazypath) then
   -- bootstrap lazy.nvim
   -- stylua: ignore

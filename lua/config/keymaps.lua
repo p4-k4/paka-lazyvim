@@ -4,4 +4,4 @@
 
 local map = vim.keymap.set
 
-map("n", "<leader>fs", ":w<cr>", { desc = "Write" })
+map("n", "<leader>fs", ":w<cr>", { desc = "Write buffer" })
