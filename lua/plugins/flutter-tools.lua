@@ -35,7 +35,7 @@ return {
     },
     debugger = {
       enabled = true,
-      run_via_dap = true,
+      run_via_dap = false,
     },
 
     lsp = {
