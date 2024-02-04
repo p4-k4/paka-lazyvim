@@ -4,4 +4,4 @@
 
 vim.opt.title = true
 vim.opt.titlelen = 0 -- do not shorten title
-vim.opt.titlestring = 'P҉ A҉ K҉ A҉ V҉ I҉ M҉ - %{expand("%:p")}'
+vim.opt.titlestring = 'P҉ A҉ K҉ A҉ V҉ I҉ M҉ - %{expand("%:t")}'
