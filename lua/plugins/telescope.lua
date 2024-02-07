@@ -14,6 +14,9 @@ return {
   },
   opts = {
     defaults = {
+      pickers = {
+        sort_lastused = true,
+      },
       mappings = {
         i = {
           ["<C-j>"] = actions.move_selection_next,

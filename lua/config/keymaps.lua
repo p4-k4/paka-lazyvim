@@ -5,3 +5,4 @@
 local map = vim.keymap.set
 
 map("n", "<leader>fs", ":w<cr>", { desc = "Write buffer" })
+map("n", "<leader>x", ":b# | bd #<cr>", { desc = "Delete buffer" })
