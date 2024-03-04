@@ -47,6 +47,11 @@ return {
         virtual_text = false, -- show the highlight using virtual text
         virtual_text_str = "■", -- the virtual text character to highlight
       },
+      settings = {
+        showTodos = true,
+        completeFunctionCalls = true,
+        enableSnippets = true,
+      },
     },
   },
 

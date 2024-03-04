@@ -4,6 +4,7 @@ return {
 
   "nvim-telescope/telescope.nvim",
   keys = {
+    { "<leader>fR", false },
     { "<leader>/", ":Telescope file_browser path=%:p:h select_buffer=true previewer=false<cr>" },
     { "<leader>'", ":Telescope project<cr>" },
     { "<leader>.", "<cmd>Telescope find_files<cr>" },
