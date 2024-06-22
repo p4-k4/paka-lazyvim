@@ -1,5 +1,7 @@
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 
+vim.opt.swapfile = false
+
 vim.g.neovide_padding_top = 12
 vim.g.neovide_padding_left = 12
 vim.g.neovide_padding_right = 12
